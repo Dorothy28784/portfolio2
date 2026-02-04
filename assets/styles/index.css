@@ -1,0 +1,175 @@
+/*css variables*/
+ :root{
+    --primary-color:#4C243B ;
+   --secondary-color:#AC7B84;
+   --auxilliary-color:#fff;
+   --padding-horizontal:100px;
+   --card-background:#FFEFF2;
+ }
+   html,body,h1,h3,p{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+   
+ }
+ nav{
+    background-color: var(--secondary-color);
+    display: flex;/*arranges element in a row*/
+    justify-content: space-between;
+    align-items: center;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+nav>div>a{
+    color: white;
+    text-decoration: none;
+    margin-right: 4px;
+}
+nav>div>h1{
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    
+}
+
+
+#homesection{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+}
+#homesection > img{
+    aspect-ratio: 1/1;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+#homesection>div{
+    padding-left: 128px;
+}
+#homesection>div>h1{
+    font-size: 34px;
+    margin: 0;
+    color: gray;
+}
+#homesection>div>p{
+    font-size: 16px;
+    margin: 0;
+    padding-bottom : 20px;
+    font-weight: 300;
+    color: black;
+
+}
+#homesection>div>button{
+    all: unset;
+    background-color: skyblue;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+#homesection>div>button:hover{
+    background-color: blue;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+h1{
+    text-align: center;
+    color:red;
+}
+
+projectsection>div>h1{
+    color:var(--primary-color);
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+ #projectsection>div>p{
+    color:black;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+ }
+ 
+ #projectsection>div>.card{
+    background-color: aliceblue;
+    width: 324px;
+    height: 355px;
+    border-radius: 30px;
+    margin: 12px;
+    padding: 16px;
+ }
+
+
+#projectsection>div>.card>button{
+    all: unset;
+    background-color:skyblue;
+    color: #fff;
+    padding-left: 20px;
+    width:50% ;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+#projectsection>.projects{
+    display: flex;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+
+#projectsection>div>.card>button:hover{
+        background-color:blue;
+        color: gray;
+        cursor: pointer;
+
+
+}
+
+
+
+
+#projectsection>div>.card>img{
+    width: 280px;
+    height: 153px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+
+
+}
+
+#projectsection>div>.card>h3{
+    font-size: 20px;
+
+}
+
+#projectsection>div>.card>p{
+    font-size: 15px;
+    color: black;
+    margin-top: 12px;
+}
