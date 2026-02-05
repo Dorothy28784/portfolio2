@@ -94,7 +94,11 @@
 <!--contact form-->
 <form action="">
     <h2>USER FORM</h2>
-    <!--user name-->
+    <hr>
+    <br>
+
+    <div class="usernameEmail">
+<!--user name-->
     <div>
         <label for="username">Name</label>
         <input type="text " placeholder="e.g Dorothy..." name="username" >   
@@ -105,7 +109,11 @@
         <label for="userEmail">Email</label>
         <input type="email"placeholder="enter your email" name="userEmail">
     </div>
-      <!--user age-->
+    </div>
+
+
+    <div class="userAgebirthday">
+         <!--user age-->
     <div>
         <label for="userage">Age:</label>
         <input type="number" placeholder="0" name="userAge">
@@ -113,18 +121,35 @@
     </div>
     <!--user birth-->
     <div>
-        <label for="userDOB">Your Birthday</label>
+        <label for="userDOB">Your Birthday</label><br>
         <input type="date" name="userDOB">
 
+      </div>
     </div>
+    
+     
+    <div class="userfileMessage">
     <!--user file input-->
-    <div>
-        <label for="userfile">upload file:</label>
+
+      <div>
+        <label for="userfile">upload file:</label><br>
         <input type="file" name="userfile">
+      </div>
+
+    <!--user message-->
+      <div class="usermessage">
+
+    <label for="usermessage">message:</label><br>
+      <input type="text" placeholder="Enter your message"  name="usermessage"></textarea>
+
+      </div>
     </div>
+   
+       
 
 </form>
 </section>
+<div style="margin:100px;"></div>
 
     
 </body>
