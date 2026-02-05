@@ -173,3 +173,27 @@ projectsection>div>h1{
     color: black;
     margin-top: 12px;
 }
+
+#contactsection{
+
+    padding-left:var(--padding-horizontal) ;
+    padding-right: var(--padding-horizontal);
+    height: 60vh;
+}
+
+#contactsection > form{
+    padding: 24px;
+    width: 60vw;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    
+    
+}
+
+#contactsection > form > div{
+    margin-top: 16px;
+}
+
+#contactsection > form > h2{
+    text-align: center;
+}
